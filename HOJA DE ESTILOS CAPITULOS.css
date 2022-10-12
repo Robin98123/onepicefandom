@@ -1,0 +1,263 @@
+*{
+    box-sizing: border-box;
+}
+
+
+video{
+    width: 100%;
+}
+
+
+
+body{
+    padding: 60px;
+    background-color: #010641;
+}
+
+a{
+    text-decoration: none;
+    color: #DFE366;
+    text-shadow: 1px 1px 2px black
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: transparent;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    margin-right: 35px;
+}
+
+.botones_accion img{
+    height: 50px;
+}
+
+button{
+    background-color: transparent;
+    border: transparent;
+}
+
+nav a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    padding-right: 60px;
+
+}
+
+nav a:hover{
+    color: yellow;
+}
+
+.seccion_1{
+    padding-top: 45px;
+}
+
+#nombre_japones{
+    height: 35px;
+}
+
+.text-principal{
+    
+}
+
+.text-principal__item{
+    display: inline-block;
+    text-shadow: 1px 1px 2px black
+}
+
+.text-principal__item img{
+    border-radius: 20px;
+}
+
+#baner_desplazable_principal{
+    display: inline-block;
+    float: right;
+}
+
+fieldset{
+    background-color: transparent;
+    border: transparent;
+}
+
+.caja_2{
+    width: 650px;
+    line-height: 30px;
+    text-shadow: 1px 1px 2px black
+}
+
+.text-secundary{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-secundary__item{
+    display: inline-block;
+    line-height: 30px;
+}
+
+
+#imagen_segunda_seccion{
+    float: right;
+}
+
+.caja_3{
+    width: 650px;
+    line-height: 30px;
+    text-shadow: 1px 1px 2px black
+}
+
+.video_externo{
+    padding-left: 50px;
+    padding-right: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #DFE366;
+    border-radius: 30px;
+    width: 60%;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 35px;
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 18px;
+}
+
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gray;
+    font-size: 35px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    font-size: 13;
+}
+
+
+
+#boton_de_baner_principal{
+    background-color: #DFE366;
+    padding: 20px;
+    width: 200px;
+    border-radius: 10px;
+    border: transparent;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    color: #0080FF;
+
+}
+
+#boton_de_baner_principal:hover{
+    background-color: yellow;
+    color: #010641;    
+}
+
+.botones_normales{
+    background-color: #DFE366;
+    padding: 20px;
+    width: 230px;
+    border-radius: 10px;
+    border: transparent;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    color: #010641;
+}
+
+.botones_normales:hover{
+    background-color: yellow;
+    color: #010641; 
+}
+
+.registro-primary{
+    display: flex;
+    line-height: 30px;
+
+}
+
+.registro-primary__item form{
+    color: blue;
+}
+
+.registro-primary{
+    padding-left: 200px;
+    padding-right: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.titulo_boton{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titulo-blog{
+    display: flex;
+    justify-content: center;
+}
+
+.seccion-noticias{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.noticia-1{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+
+#imagenes-seccion-noticias img{
+    border-radius: 50px;
+}
+
+.merchandisin{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 250px;
+}
+
+.imagen{
+    padding-right: 120px;
+}
+
+.footer{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.footer-home{
+    display: flex;
+    align-items: flex-end;
+}
+
+.footer-año{
+    padding-left: 20px;
+    line-height: 10px;
+
+}
+

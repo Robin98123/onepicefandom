@@ -1,0 +1,208 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #010641;
+    padding: 90px;
+}
+
+a{
+    text-decoration: none;
+    color: #DFE366;
+    text-shadow: 1px 1px 2px black
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    background-color: transparent;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    margin-right: 35px;
+}
+
+.botones_accion img{
+    height: 50px;
+}
+
+button{
+    background-color: transparent;
+    border: transparent;
+}
+
+nav a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    padding-right: 60px;
+
+}
+
+nav a:hover{
+    color: yellow;
+}
+
+
+.text-principal__item img{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px 20px 20px 20px;
+}
+
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 35px;
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 18px;
+}
+
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gray;
+    font-size: 35px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    font-size: 13;
+}
+
+
+
+#boton_de_baner_principal{
+    background-color: #DFE366;
+    padding: 20px;
+    width: 200px;
+    border-radius: 10px;
+    border: transparent;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    color: #0080FF;
+
+}
+
+#boton_de_baner_principal:hover{
+    background-color: yellow;
+    color: #010641;    
+}
+
+.botones_normales{
+    
+    background-color: #DFE366;
+    padding: 20px;
+    width: 230px;
+    border-radius: 10px;
+    border: transparent;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    color: #010641;
+}
+
+.botones_normales:hover{
+    background-color: yellow;
+    color: #010641; 
+}
+
+.boton-cargarmas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.registro-primary{
+    display: flex;
+    line-height: 30px;
+
+}
+
+.parrafo-descripcion-de-personaje{
+    padding-left: 250px;
+}
+
+.imagen-personaje-principal{
+    padding-right: 200px;
+}
+
+.registro-primary__item form{
+    color: blue;
+}
+
+.registro-primary{
+    padding-left: 200px;
+    padding-right: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.titulo_boton{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titulo-blog{
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-personajes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.seccion-noticias{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.seccion-personaje{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.parrafo-personajes p{
+    line-height: 30px;
+    padding-left: 120px;
+}
+
+
+.footer{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.footer-home{
+    display: flex;
+    align-items: flex-end;
+}
+
+.footer-año{
+    padding-left: 20px;
+    line-height: 10px;
+
+}
+
